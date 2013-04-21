@@ -1,0 +1,22 @@
+The porting of X11 server to HelenOS project was about ,developing a x11 system to helenOS. The original work was to port X server ,
+which includes ,
+1)Handling input and output events (mouse handler)
+2)Font server ( for adding different fonts)
+3)Color server ( for getting different colors) 
+4) Xclients ,different applications which use the above 3 and perform certain functions.
+We have found that ,the HelenOS has some basic GUI stack which already performs the first 3 functions ie it is already available in HelenOS but the code written in different approach and it deviates from X11.
+Hence now ,our work is to use the basic functionalities and develop various X clients . They are having a basic window manager ,which renders GUI to HelenOS .This is again an application .
+Also develop certain Xclients like 
+Xcalc : develop a simple calculator 
+Xclock: display the current system .
+---------------------------------------------------------------------------------------------------------------------------------------------
+Things to be corrected in slides.
+
+slide 2:
+The source code of X11.1 version,basic version released in 1991 was used.imake couldnt generate the makefile successfully because , libraries used like ncurses are not yet ported for HelenOS and cross-compiler couldnt compile it .
+
+Slide 5:
+Work done till now 
+1)Using the available graphics support ,Vlaunch app is modiified to emulate a basic "Desktop" application found in any fully featured OS.
+2)Simple Xclient application "xcalc-a calculator " is developed using available widget toolkit.
+

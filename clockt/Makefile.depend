@@ -1,0 +1,32 @@
+# DO NOT DELETE
+
+clockt.o: ../../lib/c/include/sys/time.h ../../lib/c/include/sys/types.h
+clockt.o: ../../lib/c/include/libarch/types.h
+clockt.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+clockt.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+clockt.o: ../../lib/c/include/stdio.h ../../lib/c/include/stdarg.h
+clockt.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+clockt.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+clockt.o: ../../lib/c/include/malloc.h ../../lib/c/include/io/pixel.h
+clockt.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+clockt.o: ../../lib/gui/window.h ../../lib/c/include/async.h
+clockt.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+clockt.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+clockt.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+clockt.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+clockt.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+clockt.o: ../../lib/c/include/unistd.h ../../lib/c/include/libarch/config.h
+clockt.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+clockt.o: ../../lib/c/include/abi/syscall.h
+clockt.o: ../../lib/c/include/libarch/syscall.h
+clockt.o: ../../lib/c/include/adt/prodcons.h
+clockt.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/ipc/window.h
+clockt.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/io/window.h
+clockt.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+clockt.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+clockt.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+clockt.o: ../../lib/draw/surface.h ../../lib/c/include/io/pixelmap.h
+clockt.o: ../../lib/gui/widget.h ../../lib/gui/grid.h ../../lib/gui/button.h
+clockt.o: ../../lib/draw/source.h ../../lib/softrend/transform.h
+clockt.o: ../../lib/softrend/filter.h ../../lib/draw/font.h
+clockt.o: ../../lib/gui/connection.h ../../lib/gui/label.h

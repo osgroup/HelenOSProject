@@ -1,0 +1,35 @@
+# DO NOT DELETE
+
+file.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+file.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+file.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+file.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+file.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+file.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+file.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/malloc.h
+file.o: ../../lib/c/include/io/pixel.h ../../lib/c/include/task.h
+file.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/str_error.h
+file.o: ../../lib/gui/window.h ../../lib/c/include/async.h
+file.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+file.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+file.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+file.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+file.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+file.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+file.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+file.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+file.o: ../../lib/c/include/abi/syscall.h
+file.o: ../../lib/c/include/libarch/syscall.h
+file.o: ../../lib/c/include/adt/prodcons.h ../../lib/c/include/fibril_synch.h
+file.o: ../../lib/c/include/ipc/window.h ../../lib/c/include/ipc/vfs.h
+file.o: ../../lib/c/include/io/window.h ../../lib/c/include/loc.h
+file.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+file.o: ../../lib/c/include/io/concaps.h ../../lib/c/include/io/kbd_event.h
+file.o: ../../lib/c/include/io/keycode.h ../../lib/draw/surface.h
+file.o: ../../lib/c/include/io/pixelmap.h ../../lib/gui/widget.h
+file.o: ../../lib/gui/grid.h ../../lib/gui/button.h ../../lib/draw/source.h
+file.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+file.o: ../../lib/draw/font.h ../../lib/gui/connection.h
+file.o: ../../lib/gui/label.h ../../lib/c/include/dirent.h
+file.o: ../../lib/c/include/fcntl.h ../../lib/c/include/getopt.h
+file.o: ../../lib/c/include/sys/stat.h ../../lib/c/include/sort.h
